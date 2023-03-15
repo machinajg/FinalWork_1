@@ -19,11 +19,9 @@ void PrintArray(string[] coll)
     }
     Console.WriteLine();
 }
-
-
-
-
-
 string[] collection = { "gig", "brains", "home", "work", "GB", "#@", ";)" };
 string[] array = new string[collection.Length];
+PrintArray(collection);
+FillArray(collection, array);
+PrintArray(array);
 
