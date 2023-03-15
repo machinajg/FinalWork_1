@@ -11,6 +11,14 @@ void FillArray(string[] coll, string[] arr)
             arr[i] = coll[i];
     }
 }
+void PrintArray(string[] coll)
+{
+    for (int i = 0; i < coll.Length; i++)
+    {
+        Console.Write($"{coll[i]} ");
+    }
+    Console.WriteLine();
+}
 
 
 
