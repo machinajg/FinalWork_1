@@ -3,11 +3,19 @@
 // клавиатуры, либо задать на старте выполнения алгоритма. 
 // При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
+void FillArray(string[] coll, string[] arr)
+{
+    for (int i = 0; i < coll.Length; i++)
+    {
+        if (coll[i].Length <= 3)
+            arr[i] = coll[i];
+    }
+}
 
 
 
 
 
-string [] collection = {"gig","brains","home","work","GB","#@",";)"};
+string[] collection = { "gig", "brains", "home", "work", "GB", "#@", ";)" };
 string[] array = new string[collection.Length];
 
